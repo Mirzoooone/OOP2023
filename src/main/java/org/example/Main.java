@@ -102,7 +102,7 @@ public class Main {
  */
 
 //Task#3
-public class Main{
+/*public class Main{
     public static void main(String[]args){
         Scanner reader = new Scanner(System.in);
         int sum = 0;
@@ -120,4 +120,16 @@ public class Main{
 
     }
 
+}
+
+ */
+//Task#6
+public class Main {
+    public static void main(String[]args){
+        printText();
+
+    }
+    public static void printText(){
+        System.out.println("In the beginning there were the swamp, the hoe and Java. ");
+    }
 }
