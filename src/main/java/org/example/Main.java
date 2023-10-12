@@ -27,7 +27,7 @@ public class Main {
     }
 }
 */
-//Task#4
+/*Task#4
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -56,5 +56,21 @@ public class Main {
 
     }
 }
+*/
 
+//Task#5
+public class Main {
+    public static void main(String[]args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the n value: ");
+        int n = scanner.nextInt();
+
+        int sum = 0;
+        for(int i = 0; i <= n; i++){
+            int term = (int) Math.pow(2,i);
+            sum += term;
+        }
+        System.out.println("The sum of the series is: " + sum);
+    }
+}
 
