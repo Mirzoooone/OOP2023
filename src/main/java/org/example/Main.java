@@ -135,7 +135,7 @@ public class Main {
 }
  */
 // Task#7
-public class Main{
+/*public class Main{
     public static void main(String[]args){
         printStars(5);
         printStars(3);
@@ -147,5 +147,23 @@ public class Main{
             System.out.print("*");
         }
         System.out.println();
+    }
+}
+ */
+
+//Task#8
+public class Main{
+    public static void main(String[]args){
+        int numberOfRows = 5;
+        drawStarsPyramid(numberOfRows);
+
+    }
+    public static void drawStarsPyramid (int rows){
+        for (int i = 1; i <= rows; i++ ){
+            for (int j = 1; j <= i; j++ ){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
