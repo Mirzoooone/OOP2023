@@ -124,12 +124,28 @@ public class Main {
 
  */
 //Task#6
-public class Main {
+/*public class Main {
     public static void main(String[]args){
         printText();
 
     }
     public static void printText(){
         System.out.println("In the beginning there were the swamp, the hoe and Java. ");
+    }
+}
+ */
+// Task#7
+public class Main{
+    public static void main(String[]args){
+        printStars(5);
+        printStars(3);
+        printStars(9);
+
+    }
+    private static void printStars(int amount){
+        for (int i = 0; i < amount; i++){
+            System.out.print("*");
+        }
+        System.out.println();
     }
 }
