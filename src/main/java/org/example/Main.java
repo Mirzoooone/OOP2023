@@ -59,7 +59,7 @@ public class Main {
 */
 
 //Task#5
-public class Main {
+/*public class Main {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the n value: ");
@@ -73,4 +73,28 @@ public class Main {
         System.out.println("The sum of the series is: " + sum);
     }
 }
+*/
+//Task#2
+public class Main{
+    public static void main(String[]args){
+        Scanner reader = new Scanner(System.in);
+        int sum = 0;
+        int read;
 
+        System.out.println("Enter the first number: ");
+        read = reader.nextInt();
+        sum += read;
+
+        System.out.println("Enter the second number: ");
+        read = reader.nextInt();
+        sum += read;
+
+        System.out.println("Enter the third number: ");
+        read = reader.nextInt();
+        sum += read;
+
+        System.out.println("Sum: " + sum);
+
+        reader.close();
+    }
+}
