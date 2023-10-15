@@ -152,7 +152,7 @@ public class Main {
  */
 
 //Task#8
-public class Main{
+/*public class Main{
     public static void main(String[]args){
         int numberOfRows = 5;
         drawStarsPyramid(numberOfRows);
@@ -162,6 +162,24 @@ public class Main{
         for (int i = 1; i <= rows; i++ ){
             for (int j = 1; j <= i; j++ ){
                 System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+ */
+//Task9
+public class Main{
+    public static void main(String[]args){
+        int numberOfRows = 10;
+        numberPyramid(numberOfRows);
+    }
+
+    private static void numberPyramid(int rows) {
+        for (int i = 1; i <= rows; i++){
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
             }
             System.out.println();
         }
